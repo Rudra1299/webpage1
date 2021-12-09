@@ -1,0 +1,83 @@
+body.contact{
+    background-image: url(./images/contactme.jpeg);
+    height: 100%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#tab-section li {
+    display:inline-block;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+table input {
+    display: inline-block;
+    margin: 5px;
+    border-radius: 5px;
+    border: 0.1px solid gray;
+    border-color: honeydew;
+    background-color: rgb(220, 225, 228);
+    font-size: 25px; 
+    color:rgb(99, 100, 102)
+}
+
+label {
+    color: rgb(78, 78, 80);
+}
+a {
+    color: rgb(235, 227, 227);
+    text-decoration: none;
+    padding: 25px 25px;
+    margin: 10px;
+    width: 200px;
+}
+
+a:hover{
+    background-color:rgb(149, 155, 173);
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1)
+}
+a:active {
+    text-decoration: grey;
+}
+#tab-section, #tbl{
+    text-align: center;
+}
+
+.Submission {
+    position: relative;
+    left: 250px;
+}
+
+#heading h3{
+    position: relative;
+    left: 500px;
+    color: whitesmoke;
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#form {
+    position: relative;
+    left: 400px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    float: left;
+    padding: 10px;
+    background-color: rgb(244, 242, 248);
+}
+
+td{
+    padding: 10px;
+}
+
+.summ-info ul {
+    display: inline-block;
+    color:whitesmoke;
+}
+
+.summ-info ul li {
+    margin: 10px;
+    position: relative;
+    left: 400px;
+}

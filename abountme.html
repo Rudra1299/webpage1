@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About me</title>
+        <link href="./homepage.css" type="text/css" rel="stylesheet">
+    </head>
+    <body class="about">
+        <section id="tab-bar">
+            <nav>
+                <ul id="tab-section">
+                        <li><a href="./homepage.html" class="tablink" onclick="changer()">Home</a></li>
+                        <li><a href="./abountme.html" class="tablink" onclick="changer()">About Me</a></li>
+                        <li><a href="./contactme.html" class="tablink" onclick="changer()">Contact Me</a></li>
+                        <li><a href="./gallery.html" class="tablink" onclick="changer()">Gallery</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="about-section">
+            <h1 class="about-heading">About me</h1>
+            <h2 class="abount-heading">Mark</h2>
+            <p class="about-me">Hi, My name is rudmax. I'm a software Engineer and interested
+            in Web development</p>
+        </section>
+        <script>
+            function changer() {
+                tablinks = document.getElementsByClassName("tablink");
+                for(i = 0; i < x.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace("tablink", " ");
+                }
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,182 @@
+
+body {
+    background-image: url(./images/homepage.jpg);
+    height: 100%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: calc(0.5);
+
+}
+
+body.gallery, body.contact {
+    background-image: url(./images/contactme.jpeg);
+    height: 100%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: calc(0.5);
+}
+nav, h1, h2, p{
+    text-align: center;
+}
+
+.heading {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#return {
+    text-align: center;
+}
+
+
+#introduction, #content{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body.contact{
+    background-image: url(./images/contactme.jpeg);
+    height: 100%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#tab-section li {
+    display:inline-block;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+table input {
+    display: inline-block;
+    margin: 5px;
+    border-radius: 5px;
+    border: 0.1px solid gray;
+    border-color: honeydew;
+    background-color: rgb(220, 225, 228);
+    font-size: 25px; 
+    color:rgb(99, 100, 102)
+}
+
+label {
+    color: rgb(78, 78, 80);
+}
+a {
+    color: rgb(224, 220, 220);
+    text-decoration: none;
+    padding: 25px 25px;
+    margin: 10px;
+    width: 200px;
+    background-color: rgb(54, 90, 122);
+    border: 1px solid rgb(54, 90, 122);
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+}
+
+a:hover{
+    background-color:rgb(149, 155, 173);
+    transition:0.5s;
+    box-shadow: rgb(167, 165, 165);
+}
+
+#tab-section, #tbl{
+    text-align: center;
+}
+
+.Submission {
+    position: relative;
+    left: 250px;
+}
+
+#heading h3{
+    position: relative;
+    left: 500px;
+    color: whitesmoke;
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#form {
+    position: relative;
+    left: 400px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(244, 242, 248);
+    float: left;
+}
+
+td{
+    padding: 10px;
+}
+
+.summ-info ul {
+    display: inline-block;
+    color:whitesmoke;
+}
+
+.summ-info ul li {
+    margin: 30px;
+    font-size: 15px;
+    position: relative;
+    left: 400px;
+    bottom: 5px;
+    width: 500px;
+}
+
+figure {
+    text-align: center;
+}
+
+img {
+    height: 400px;
+    width: 650px;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 25px;
+    box-shadow: rgb(97, 95, 95);
+}
+
+.zoom {
+    transition: 0.5s;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+}
+
+p {
+    text-align: center;
+    color:whitesmoke;
+}
+
+
+p.home-para, p.about-me {
+    color:rgb(27, 28, 29);
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: rgb(201, 211, 216);
+    border: 1px solid rgb(228, 230, 233);
+    border-radius: 10px;
+    box-shadow:rgb(59, 58, 58);
+    width: 90%;
+    position: relative;
+    left: 100px;
+    word-spacing: 5px;
+    opacity: 1;
+}
+
+h2.heading {
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+section.about-section{
+    border: 1px solid rgb(202, 205, 207);
+    background-color: rgb(227, 231, 233);
+    opacity: 0.75;
+}

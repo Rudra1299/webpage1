@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Me</title>
+        <link href="./homepage.css" rel="stylesheet" type="text/css">
+    </head>
+    <body class="contact">
+        <section id="tab-bar">
+            <nav>
+                <ul id="tab-section">
+                        <li><a href="./homepage.html" class="tablink" onclick="changer()">Home</a></li>
+                        <li><a href="./abountme.html" class="tablink" onclick="changer()">About Me</a></li>
+                        <li><a href="./contactme.html" class="tablink" onclick="changer()">Contact Me</a></li>
+                        <li><a href="./gallery.html" class="tablink" onclick="changer()">Gallery</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section id="heading">
+            <h3>Contact me</h3>
+        </section>
+        <section id="form">
+            <form action="./message.html" method="post">
+                <table id="tbl">
+                    <tr>
+                        <div class="name form-detail"></div>
+                        <td>
+                                <label for="first-name">First name</label>
+                        </td>
+                        <td>
+                            <input type="text" name="first-name" id="first-name" required>
+                        </td>
+                        </div>
+                    </tr>
+                    <tr>
+                        <div class="name form-detail"></div>
+                        <td>
+                            <label for="last-name">Last name</label>
+                        </td>
+                        <td>
+                            <input type="text" name="last-name" id="last-name" required>
+                        </td>
+                        </div>
+                    </tr>
+                    <tr>
+                        <div class="email form-detail"></div>
+                        <td>
+                            <label for="email-id">email</label>
+                        </td>
+                        <td>
+                            <input type="email" name="email-id" id="email-id">
+                        </td>   
+                        </div>
+                    </tr>
+                    <tr>
+                        <div class="phone form-detail"></div>
+                        <td>
+                            <label for="phone-no">phone</label>
+                        </td>
+                        <td>
+                            <input type="number" name="phone-no" id="phone-no" length="10">
+                        </td>
+                        </div>
+                </table>    
+                <div class="Submission form-detail">
+                        <input type="submit" name="Submit" value="Submit">
+                </div>
+            </form>
+        </section>
+        <section id="summay">
+            <div class="summ-info">
+                <ul>
+                    <li>To know more visit metaverse website.</li>
+                    <li>articles about metaverse are available at site "The Verge".</li>
+                </ul>
+            </div>
+        </section>
+        <script>
+            function changer() {
+                tablinks = document.getElementsByClassName("tablink");
+                for(i = 0; i < x.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace("tablink", " ");
+                }
+            }
+        </script>
+    </body>
+</html>
